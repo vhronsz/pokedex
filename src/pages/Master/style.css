@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+.pages{
+    display: flex;
+    height: 100vh;
+}
+

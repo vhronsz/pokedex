@@ -1,0 +1,28 @@
+#side-menu{
+    width: 17.5%;
+    background-color: #CA272C;
+}
+
+#logo{
+    width: 100%;
+    height: fit-content;
+}
+#side-menu-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section{
+    height: 35%;
+}
+
+.side-menu-item{
+    color: #e0e0e0;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
