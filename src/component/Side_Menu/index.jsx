@@ -4,15 +4,17 @@ import "./style.css";
 const SideMenu = (props)=>{
     return(
         <div id={"side-menu"}>
-            <div className={"section"}>
-                <div id={"side-menu-title"}>
+            <div id={"title-section"}>
+                <div id={"side-menu-title-section"}>
                     <img id={"logo"} src={"/logo.png"}/>
+                    <div id={"title"}>Working Title</div>
                 </div>
             </div>
-            <div className={"section"}>
-                <div className={"side-menu-item"}>
+
+            <div id={"menu-main-section"}>
+                <a href={"/pokédex"} className={"side-menu-item"}>
                     Pokédex
-                </div>
+                </a>
                 <div className={"side-menu-item"}>
                     Pokédex
                 </div>
