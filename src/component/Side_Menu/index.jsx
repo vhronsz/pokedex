@@ -12,7 +12,7 @@ const SideMenu = (props)=>{
             </div>
 
             <div id={"menu-main-section"}>
-                <a href={"/pokédex"} className={"side-menu-item"}>
+                <a href={"/pokédex"} className={"side-menu-item"} >
                     Pokédex
                 </a>
                 <div className={"side-menu-item"}>

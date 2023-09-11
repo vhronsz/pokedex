@@ -9,7 +9,8 @@ function Router(){
         element: <Master/>,
         children:[
             {
-
+                path:"/pokédex",
+                element:<Master/>
             }
         ]
     }]);
