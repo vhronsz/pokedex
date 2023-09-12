@@ -1,10 +1,16 @@
 import React,{useState} from "react";
+import Master from "../Master";
 
 const Homepage = (props)=>{
+    const renderHome = ()=>{
+        return(
+            <div>
+                Homepage
+            </div>
+        );
+    }
     return(
-        <div className={""}>
-            Homepage
-        </div>
+        <Master content={renderHome()}/>
     );
 }
 

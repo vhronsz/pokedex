@@ -1,29 +1,21 @@
 import React,{useState} from "react";
 import "./style.css";
+import {Link} from "react-router-dom";
 
 const SideMenu = (props)=>{
     return(
         <div id={"side-menu"}>
             <div id={"title-section"}>
-                <div id={"side-menu-title-section"}>
+                <Link to={"/"} id={"side-menu-title-section"}>
                     <img id={"logo"} src={"/logo.png"}/>
                     <div id={"title"}>Working Title</div>
-                </div>
+                </Link>
             </div>
 
             <div id={"menu-main-section"}>
-                <a href={"/pokédex"} className={"side-menu-item"} >
+                <Link to={"/pokedex"} className={"side-menu-item"} >
                     Pokédex
-                </a>
-                <div className={"side-menu-item"}>
-                    Pokédex
-                </div>
-                <div className={"side-menu-item"}>
-                    Pokédex
-                </div>
-                <div className={"side-menu-item"}>
-                    Pokédex
-                </div>
+                </Link>
             </div>
         </div>
     );
