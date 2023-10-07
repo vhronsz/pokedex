@@ -1,15 +1,20 @@
 import React from "react";
+import "./pokemon-card.css";
 
-const PokemonCard = (props)=> {
-    return(
-        <div>
-            <div>Ini gambar pokemon</div>
-            <div>Ini nama pokemon</div>
-            <div>
-                <div>Tipe 1</div>
-                <div>Tipe 2</div>
+const PokemonCard = (props) => {
+    return (
+        <div className={"pokemon-card"}>
+            <div className={"card-container-image"}>
+                <img className={"card-image"} src={"/placeholder.png"} />
             </div>
-            <div></div>
+            <div className="card-info">
+                <div className="name">
+                    Pokemon name
+                </div>      
+                <div className="type">
+                    
+                </div>
+            </div>
         </div>
     );
 }

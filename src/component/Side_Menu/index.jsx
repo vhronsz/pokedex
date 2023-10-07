@@ -13,6 +13,10 @@ const SideMenu = (props)=>{
             </div>
 
             <div id={"menu-main-section"}>
+                <Link to={"/"} className={"side-menu-item"} >
+                    Home
+                </Link>
+
                 <Link to={"/pokedex"} className={"side-menu-item"} >
                     Pokédex
                 </Link>
